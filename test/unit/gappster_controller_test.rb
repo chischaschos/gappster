@@ -1,14 +1,11 @@
 require File.expand_path(File.dirname(__FILE__) + '/../test_helper')
 
-class GappsterController < ActionController::Base
+class GappsterUnitController < ActionController::Base
 end 
 
-class GappsterControllerTest <  ActionController::TestCase
-   def setup
-     @controller = GappsterController.new
-   end 
-
-   def test_expected_methods
-     assert_equal true, true
-   end 
+class GappsterUnitControllerTest <  Test::Unit::TestCase
+  def test_expected_methods
+    assert_equal GappsterUnitController.methods.grep(/gappster_authentication/).length, 1, 'This method has to exist'
+    assert_equal GappsterUnitController.instance_methods.grep(/open_id_authentication/).length, 1, 'This method has to exist'
+  end 
 end
