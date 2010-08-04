@@ -7,3 +7,4 @@ require 'bundler/setup'
 require 'test/unit'
 require "action_controller"
 require 'gappster'
+require 'gappster_consumer'
