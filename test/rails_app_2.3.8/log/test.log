@@ -1,0 +1,48 @@
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-08-26 13:44:00) [GET]
+Redirected to http://test.host/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://test.host/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:02:32) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 10ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:08:06) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 2ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:08:06) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:11:20) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 2ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:11:20) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:13:37) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 2ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:13:37) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/home/openid_auth_complete]

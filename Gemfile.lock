@@ -19,6 +19,13 @@ GEM
     mocha (0.9.8)
       rake
     rack (1.1.0)
+    rails (2.3.8)
+      actionmailer (= 2.3.8)
+      actionpack (= 2.3.8)
+      activerecord (= 2.3.8)
+      activeresource (= 2.3.8)
+      activesupport (= 2.3.8)
+      rake (>= 0.8.3)
     rake (0.8.7)
     ruby-openid (2.1.8)
     ruby-openid-apps-discovery (1.2.0)
@@ -31,13 +38,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionmailer
-  actionpack
-  activerecord
-  activeresource
-  activesupport
   echoe
   mocha
+  rails (= 2.3.8)
   ruby-openid
   ruby-openid-apps-discovery
   test-unit

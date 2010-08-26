@@ -20,7 +20,7 @@ module Gappster
     redirect_to :action => 'index'
   end
 
-  private
+  protected
 
   def openid_start
      openid_auth_begin unless session['openid_authenticated']
