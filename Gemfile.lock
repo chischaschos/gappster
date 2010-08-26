@@ -1,0 +1,43 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.8)
+      actionpack (= 2.3.8)
+    actionpack (2.3.8)
+      activesupport (= 2.3.8)
+      rack (~> 1.1.0)
+    activerecord (2.3.8)
+      activesupport (= 2.3.8)
+    activeresource (2.3.8)
+      activesupport (= 2.3.8)
+    activesupport (2.3.8)
+    echoe (4.3.1)
+      gemcutter
+      rubyforge
+    gemcutter (0.6.1)
+    json_pure (1.4.3)
+    mocha (0.9.8)
+      rake
+    rack (1.1.0)
+    rake (0.8.7)
+    ruby-openid (2.1.8)
+    ruby-openid-apps-discovery (1.2.0)
+      ruby-openid (>= 2.1.7)
+    rubyforge (2.0.4)
+      json_pure (>= 1.1.7)
+    test-unit (2.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  actionmailer
+  actionpack
+  activerecord
+  activeresource
+  activesupport
+  echoe
+  mocha
+  ruby-openid
+  ruby-openid-apps-discovery
+  test-unit

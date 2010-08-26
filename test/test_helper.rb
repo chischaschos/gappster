@@ -1,9 +1,8 @@
-$LOAD_PATH << File.expand_path('../../lib' , __FILE__)
-
 ENV["RAILS_ENV"] = "test"
+
+$:.unshift File.expand_path('../../lib' , __FILE__)
+$:.unshift File.dirname(__FILE__)
 
 require 'rubygems'
 require 'bundler/setup'
-require 'test/unit'
-require "action_controller"
-require 'gappster'
+require 'rails_app_2.3.8/config/environment'

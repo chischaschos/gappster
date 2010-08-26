@@ -18,30 +18,18 @@ class HomeController < ActionController::Base
 
 end
 
-class ControllerTest < ActionController::TestCase
+class ControllerTest < ActionController::IntegrationTest
 
-  def setup
-    @controller = HomeController.new
-  end
+  def test_successful_authentication
 
-  def teardown
-    @controller = nil
-  end
+    get '/'
 
-  def test_successful_authentication_with_google_domain
-
-    # Get index
-    get :index
-
-    # You're not authenticated, but, since this controller uses a google domain,
-    # you'll be redirect to a google authentication page.
-    # TODO: Test the redirection process somehow
-    
     # After the whole redirection process you were redirected to your home index
     assert_redirected_to :action => 'openid_auth_complete'
     #assert_equal HomeController::WELCOME_MESSAGE, @response.body
 
     # And information like your email was filled in session
+    assert_redirected_to :action => 'index'
     assert_equal('test.email@crowdint.com', session['openid_email'], )
 
   end
