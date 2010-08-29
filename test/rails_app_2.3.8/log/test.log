@@ -1,48 +1,296 @@
+# Logfile created on Thu Aug 26 15:08:46 -0500 2010
 
-
-Processing HomeController#index (for 0.0.0.0 at 2010-08-26 13:44:00) [GET]
-Redirected to http://test.host/home/openid_auth_complete
-Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 0ms | 302 Found [http://test.host/home]
-
-
-Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:02:32) [GET]
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:08:48) [GET]
 Redirected to http://www.example.com/home/openid_auth_complete
 Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 10ms | 302 Found [http://www.example.com/]
+Completed in 13ms | 302 Found [http://www.example.com/]
 
 
-Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:08:06) [GET]
-Redirected to http://www.example.com/home/openid_auth_complete
-Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 2ms | 302 Found [http://www.example.com/]
-
-
-Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:08:06) [GET]
-Redirected to http://www.example.com/home/openid_auth_complete
-Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 0ms | 302 Found [http://www.example.com/home/openid_auth_complete]
-
-
-Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:11:20) [GET]
-Redirected to http://www.example.com/home/openid_auth_complete
-Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 2ms | 302 Found [http://www.example.com/]
-
-
-Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:11:20) [GET]
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:08:48) [GET]
 Redirected to http://www.example.com/home/openid_auth_complete
 Filter chain halted as [:openid_start] rendered_or_redirected.
 Completed in 1ms | 302 Found [http://www.example.com/home/openid_auth_complete]
 
 
-Processing HomeController#index (for 127.0.0.1 at 2010-08-26 14:13:37) [GET]
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:09:54) [GET]
 Redirected to http://www.example.com/home/openid_auth_complete
 Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 2ms | 302 Found [http://www.example.com/]
+Completed in 6ms | 302 Found [http://www.example.com/]
 
 
-Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 14:13:37) [GET]
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:09:54) [GET]
 Redirected to http://www.example.com/home/openid_auth_complete
 Filter chain halted as [:openid_start] rendered_or_redirected.
-Completed in 0ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+Completed in 2ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:12:10) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 10ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:12:10) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:13:47) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 11ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:13:47) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:14:13) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 11ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:14:13) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:15:45) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 8ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:15:45) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:20:12) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 8ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:23:04) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  /home/chischaschos/Projects/gappster/test/integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/ruby-debug-0.10.3/bin/rdebug:125
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:23:18) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 15ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:23:51) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  /home/chischaschos/Projects/gappster/test/integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/ruby-debug-0.10.3/bin/rdebug:125
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:24:17) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 22ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-26 15:25:08) [GET]
+
+ActionController::UnknownAction (No action responded to openid_auth_complete. Actions: index):
+  /home/chischaschos/Projects/gappster/test/integration/authenticable_test.rb:10:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/ruby-debug-0.10.3/bin/rdebug:125
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:25:47) [GET]
+
+NoMethodError (undefined method `openid_start' for #<HomeController:0xb6d5fc08>):
+  /home/chischaschos/Projects/gappster/test/integration/authenticable_test.rb:7:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/ruby-debug-0.10.3/bin/rdebug:125
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (3.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-26 15:25:54) [GET]
+
+NoMethodError (undefined method `openid_start' for #<HomeController:0xb6fd4718>):
+  integration/authenticable_test.rb:7:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendered rescues/_trace (153.9ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-28 18:58:52) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 36ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-28 18:58:52) [GET]
+Redirected to http://www.example.com/home
+Completed in 4ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-28 19:00:05) [GET]
+Redirected to http://www.example.com/home/openid_auth_complete
+Filter chain halted as [:openid_start] rendered_or_redirected.
+Completed in 9ms | 302 Found [http://www.example.com/]
+
+
+Processing HomeController#openid_auth_complete (for 127.0.0.1 at 2010-08-28 19:00:05) [GET]
+Redirected to http://www.example.com/home
+Completed in 6ms | 302 Found [http://www.example.com/home/openid_auth_complete]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-28 19:00:05) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/home]
