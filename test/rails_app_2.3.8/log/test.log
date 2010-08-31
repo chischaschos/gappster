@@ -294,3 +294,72 @@ Completed in 6ms | 302 Found [http://www.example.com/home/openid_auth_complete]
 
 Processing HomeController#index (for 127.0.0.1 at 2010-08-28 19:00:05) [GET]
 Completed in 2ms (View: 1 | 200 OK [http://www.example.com/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-30 22:48:13) [GET]
+
+NoMethodError (protected method `prepare_openid_call' called for #<HomeController:0xb70f9314>):
+  (eval):3:in `authenticate_with_google'
+  integration/authenticable_test.rb:7:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendered rescues/_trace (249.3ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-30 22:49:13) [GET]
+
+NameError (undefined local variable or method `identifier' for #<HomeController:0xb705e2ec>):
+  /home/chischaschos/Projects/gappster/lib/gappster.rb:69:in `begin_openid_discovery'
+  /home/chischaschos/Projects/gappster/lib/gappster.rb:51:in `prepare_openid_call'
+  (eval):3:in `send'
+  (eval):3:in `authenticate_with_google'
+  integration/authenticable_test.rb:7:in `test_successful_authentication'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:38:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `each'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/testsuite.rb:37:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnermediator.rb:48:in `run_suite'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunner.rb:25:in `start'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:307:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit/autorunner.rb:52:in `run'
+  /home/chischaschos/.rvm/gems/ruby-1.8.7-p302@gappster/gems/test-unit-2.1.1/lib/test/unit.rb:326
+  integration/authenticable_test.rb:5
+
+Rendered rescues/_trace (232.9ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-30 22:50:07) [GET]
+Performing discovery for crowdint.com
+Discovering domain crowdint.com
+Cache read: __GAPPS_OPENID__crowdint.com
+Cache write: __GAPPS_OPENID__crowdint.com
+Retrieving XRDS from https://www.google.com/accounts/o8/site-xrds?ns=2&hd=crowdint.com
+Cache read: __GAPPS_OPENID__XRDS_https://www.google.com/accounts/o8/site-xrds?ns=2&hd=crowdint.com
+Cache write: __GAPPS_OPENID__XRDS_https://www.google.com/accounts/o8/site-xrds?ns=2&hd=crowdint.com
+Initializing CA bundle
+Cache write: __GAPPS_OPENID__XRDS_https://www.google.com/accounts/o8/site-xrds?ns=2&hd=crowdint.com
+Discovery info = crowdint.com<OpenID::OpenIDServiceEndpoint server_url=https://www.google.com/a/crowdint.com/o8/ud?be=o8 claimed_id= local_id= canonical_id= used_yadis=true>
+Redirected to https://www.google.com/a/crowdint.com/o8/ud?be=o8&openid.assoc_handle=AOQobUdOSf5Wrxh3xrPVovUvRtbJTPQn9nURhToqoFiOT9QXVr7DZzKp&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.realm=http%3A%2F%2Fwww.example.com%2Fhome&openid.return_to=http%3A%2F%2Fwww.example.com%2Fhome%2Fopenid_auth_complete
+Filter chain halted as [#<Proc:0xb74c71e4@(eval):3>] rendered_or_redirected.
+Completed in 5110ms | 302 Found [http://www.example.com/]

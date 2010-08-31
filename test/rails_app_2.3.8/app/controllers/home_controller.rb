@@ -2,7 +2,7 @@ require 'gappster'
 
 class HomeController < ApplicationController
 
-  openid_auth 'crowdint.com'
+  authenticate_with_google 'crowdint.com'
 
   WELCOME_MESSAGE = 'Welcome home'
 
