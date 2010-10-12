@@ -2,7 +2,6 @@ require 'gapps_openid'
 require "openid"
 require 'openid/store/filesystem'
 
-
 module Gappster
 
   module Configuration
